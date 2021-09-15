@@ -6,9 +6,7 @@ body[epub|type~="bodymatter"] section{
 }
 
 [epub|type~="z3998:signature"]{
-	font-style: italic;
-	margin-top: 2em;
-	text-align: right;
+	font-variant: small-caps;
 }
 
 [epub|type~="se:era"]{
@@ -28,4 +26,9 @@ body[epub|type~="bodymatter"] section{
 
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
 }
